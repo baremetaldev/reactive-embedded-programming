@@ -1,0 +1,19 @@
+{signal: [
+  ['I²S DMA',
+    {name: 'bufferA', wave: '3.0....3..', data: ['receiving', 'receiving', 'receiving'], node: '.......'},
+    {name: 'bufferB', wave: '0.4....0..', data: ['receiving', 'receiving', 'receiving'], node: '.......'},
+    //{},
+    ['status',
+      {name: 'buffer full', wave: '0.pl...pl.', node: '..A....C'},
+    ],
+  ],
+  {},
+  ['cpu',
+    {name: 'dma interrupt',  wave: '0.50...50.', node: '..B....D'},
+    {name: 'soft interrupt', wave: '0..6.0..6.', data: ['process', 'process']},
+  ],
+  //{name: 'dma', wave: '0.7..07..0', data: ['read', 'read'], node: '..F....'},
+],
+edge: [
+  'A->B bufferA ready to process', 'C->D bufferB ready to process'
+]}

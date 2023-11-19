@@ -1,0 +1,14 @@
+{
+  signal: [
+    ['priority ->',
+      {name: 'hw high',  wave: '070........', node: '.BC........', data: ['A']},
+      {name: 'hw low',   wave: '0...80.....', node: '....FG.....', data: ['B']},
+      {name: 'sw high',  wave: '0.6.06.0...', node: '..D.EH.I...', data: ['taskA', 'taskA']},
+      {name: 'sw med',   wave: '0......5..0', node: '.......J..K', data: ['taskB']},
+      {name: 'sw low',   wave: '40........4', node: '.A........L', data: ['taskC', 'taskC']},
+    ],
+  ],
+  edge: [
+    'A->B', 'C->D', 'E->F', 'G->H', 'I->J', 'K->L'
+  ]
+}

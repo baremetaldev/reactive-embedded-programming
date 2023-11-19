@@ -1,0 +1,15 @@
+{signal: [
+  ['I²S peripheral',
+    {name: 'I²S receiver', wave: '4.5...6..', data: ['sample0', 'sample1', 'sample2'], node: '..A...C'},
+    {},
+    {name: 'I²S buffer', wave: 'x.4...5..', data: ['sample0', 'sample1'], node: '..B...D'},
+    ['status',
+      {name: 'I²S sample ready', wave: '0.1......'},
+      {name: 'I²S overflow', wave: '0.....1..'},
+    ]
+  ],
+  {name: 'cpu', wave: '8........', data: ['busy', 'check']},
+],
+edge: [
+  'A-B sample0 moved to buffer', 'C-D sample1 overwrites buffer'
+]}

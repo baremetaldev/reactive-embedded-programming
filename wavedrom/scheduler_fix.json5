@@ -1,0 +1,22 @@
+{signal: [
+  {name: 'taskA', wave: '050..|.50|.50.|.50.......', node: '...........'},
+  {name: 'taskB', wave: '0.30.|...|..30|..30......'},
+  {name: 'taskC', wave: '0..4.|.04|.0.4|0.........', node: '...........'},
+  {name: '', node: '.A.....B...C....D....E'},
+  ],
+   edge: [ 'A 1ms', 'B 2ms', 'C 10ms', 'D 20ms', 'E ', 'F~G', 'H~I' ],
+ config:{skin:'narrow'}
+}
+
+//{signal: [
+//  ['interrupts',
+//  {name: 'taskA', wave: '050..|.50|.50.|.50.......', node: '...........'},
+//  {name: 'taskB', wave: '0.30.|...|..30|..30......'},
+//   ],
+//  {name: 'taskC', wave: '0..4.|.04|.0.4|0.........', node: '...........'},
+//  {name: '', node: '.A.....B...C....D....E'},
+//  ],
+//   edge: [ 'A 1ms', 'B 2ms', 'C 10ms', 'D 20ms', 'E ', 'F~G', 'H~I' ],
+// config:{skin:'narrow'}
+//}
+

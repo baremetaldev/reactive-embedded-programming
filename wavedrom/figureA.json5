@@ -1,0 +1,9 @@
+{signal: [
+  {name: 'cpu', wave: '34.5|4.5|4.5|', data: ['setup', 'digitalWrite', 'delay     ', 'digitalWrite', 'delay     ', 'digitalWrite', 'delay     ']},
+  {node: '.A.......B.....C'},
+  {name: 'LED_BUILTIN', wave: 'x01.|.0.|.1.|'},
+  {node: '..D...E...F'}
+],
+edge: [
+  'A+B loop', 'B+C loop', 'D LED on', 'E LED off', 'F LED on'
+]}

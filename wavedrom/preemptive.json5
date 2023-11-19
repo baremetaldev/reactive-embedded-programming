@@ -1,0 +1,23 @@
+{
+  signal: [
+    ['priority ->',
+      {name: 'high', wave: '0....70....'},
+      {              wave: '0...6x60...'},
+      {              wave: '0..5x..50..'},
+      {              wave: '0.4x....40.'},
+      {name: 'low',  wave: '03x......30'},
+    ],
+  ],
+}
+
+{
+  signal: [
+    ['priority ->',
+      {name: 'high', wave: '0.70.......'},
+      {              wave: '0.x60......'},
+      {              wave: '0.x.50.....'},
+      {              wave: '0.x..40....'},
+      {name: 'low',  wave: '03x...30...'},
+    ],
+  ],
+}

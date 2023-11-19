@@ -1,0 +1,9 @@
+{signal: [
+  {name: 'taskA', wave: '050..|.x0|.x0.|.50.......'},
+  {name: 'taskB', wave: '0.30.|...|..x0|..30......'},
+  {name: 'taskC', wave: '0..4.|...|....|0.........'},
+  {name: '', node: '.A.....B...C....D....E'},
+  ],
+   edge: [ 'A 1ms', 'B 2ms', 'C 10ms', 'D 20ms', 'E ' ],
+ config:{skin:'narrow'}
+}

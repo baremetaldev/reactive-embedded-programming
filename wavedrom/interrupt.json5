@@ -1,0 +1,12 @@
+{signal: [
+  ['cpu',
+   {name: '', wave: '0..3..0...', data: ['addr[0x1234...]'], node: '...G..I'},
+   {},
+   {name: '', wave: '5.0....5..', data: ['main', 'main'], node: '..H....J'},
+  ],
+   { name: 'trigger', wave: '0.pl......' },
+  ],
+   edge: [
+   'H~G stash cpu registers', 'I~J pop cpu registers'
+  ],
+  }
