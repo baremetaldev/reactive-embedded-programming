@@ -1044,14 +1044,6 @@ note: nothing wrong with other approaches, learning tool
 - timing
 - lightweight
 - interesting alternative
-
----
-
-#### `wrapUp`
-
-- timing
-- lightweight
-- interesting alternative
 - nordic softdevice
 
 note: possible other systems
